@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+    <!-- Menentukan karakter yang digunakan -->
+    <meta charset="UTF-8">
+
+    <!-- Membuat tampilan cocok di berbagai ukuran layar -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Judul yang tampil di tab browser -->
+    <title>Linux System Monitor</title>
+
+    <!-- Menghubungkan HTML dengan file CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Container utama website -->
+    <main class="container">
+
+        <!-- Judul aplikasi -->
+        <h1>Linux System Monitor</h1>
+
+        <!-- Keterangan aplikasi -->
+        <p class="subtitle">
+            Node.js + Express running on Kali Linux
+        </p>
+
+        <!-- Tempat semua informasi sistem -->
+        <div class="grid">
+
+            <!-- Card hostname -->
+            <div class="card">
+                <span>Hostname</span>
+
+                <!-- JavaScript nanti mengisi bagian ini -->
+                <strong id="hostname">Loading...</strong>
+            </div>
+
+
+            <!-- Card platform -->
+            <div class="card">
+                <span>Platform</span>
+
+                <strong id="platform">Loading...</strong>
+            </div>
+
+
+            <!-- Card CPU -->
+            <div class="card">
+                <span>CPU Cores</span>
+
+                <strong id="cpu">Loading...</strong>
+            </div>
+
+
+            <!-- Card RAM -->
+            <div class="card">
+                <span>RAM Used</span>
+
+                <strong id="memory">Loading...</strong>
+            </div>
+
+
+            <!-- Card uptime -->
+            <div class="card">
+                <span>Uptime</span>
+
+                <strong id="uptime">Loading...</strong>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Menghubungkan HTML dengan JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
